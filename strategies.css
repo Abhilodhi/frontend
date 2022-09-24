@@ -1,0 +1,79 @@
+*{
+    --box-shadow:2px 2px 5px grey; 
+    --card-hover-shadow:0px 3px 8px fuchsia; 
+}
+
+
+.one{
+    background-color: blueviolet;
+    border-radius: 0px 25px 25px 0px;
+    color: white;
+    height: 24px;
+    width: fit-content;
+    text-align: end;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.two{
+    background-color: blueviolet;
+    border-radius: 25px 0px 0px 25px;
+    color: white;
+    height: 24px;
+    width: fit-content;
+    text-align: end;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.card:hover{
+    box-shadow:var(--card-hover-shadow);
+    font-variant: small-caps;
+    /* top:-35px; */
+    font-size: 18px;
+    /* font-weight: bold; */
+    color: sandybrown;
+    transition:ease-in-out;
+    padding: 12px 0px ;
+    height:300px;
+    transform: scale(1.1);
+    transition: all 0.5s ease-out;
+}
+
+
+/* footer button */
+.footer-button>button{
+        background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        width: 35%;
+        }
+
+
+.footer-button>button:hover {
+    background-position: right center; 
+    background-image: linear-gradient(to right, #daded8 0%, #1fa9ee  51%, #67f1fe  100%);
+    text-decoration: none;
+    color:black !important;
+    background-color: rgb(151, 251, 151);
+}
+
+
+/* footer button hover */
+/* .footer-button:hover{
+    color: lightgreen;
+    background-color: green;
+
+}  */
+
+
+.box-shadow-nohover{
+    box-shadow: var(--box-shadow);
+  }

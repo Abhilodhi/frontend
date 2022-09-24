@@ -1,0 +1,90 @@
+*{
+    --box-shadow:2px 2px 5px  grey;
+    --box-hover-shadow:0px 3px 8px fuchsia;
+}
+
+body{
+    padding: 0; 
+    margin:0; 
+    overflow:hidden;
+}
+
+.btn-group{
+    grid-column-gap: 9px;
+}
+
+#reentry{
+    min-width: 90px;
+}
+
+h6{
+    min-width:110px;
+}
+
+/* button css for linear gradient */
+         
+.btn {
+    background-image: linear-gradient(to right, #FF5F6D 0%, #FFC371  51%, #FF5F6D  100%);
+    /* margin: 5px; */
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 25px !important;
+  }
+
+
+  /* btn css for hover effect */
+
+  .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    /* top: -5px;
+    left: 1px; */
+    color: aqua !important;
+    /* margin: 0px 2px; */
+    
+  }
+
+
+
+  /* for box-shadow */
+.card{
+    box-shadow: var(--box-shadow);
+}
+
+tr{
+    line-height: 12px;
+    min-height: 15px;
+    height: 3px;
+}
+
+/* table hover*/
+.table-hover tbody tr:hover td {
+    background-color: rgb(194, 249, 246);
+    /* transform: scale(1.1);
+    transition: all 0.7s ease; */
+    }
+
+.card-table-hover:hover{
+  animation: moveToLeft 2s ease-in-out;
+  animation-delay: 100ms;
+  z-index: 100 !important;
+  top: -25px;
+  box-shadow: var(--box-shadow);
+  border-radius: 12px;
+  /* color: darkblue; */
+  font-weight: bold;
+  box-shadow: var(--box-hover-shadow);
+  /* transform: scale(1.1);
+  transition: all 0.5s ease; */
+}
+
+
+/* order table collapse resolve */
+.order-table-header{
+    min-width: 151px;
+}

@@ -1,0 +1,148 @@
+*{
+  --animation-color:aliceblue;
+}
+
+
+/* css animation  */
+@keyframes example {
+  from   {background-color: var(--animation-color)}
+  to     {background-color: var(--animation-color)}
+}
+
+.custom-search {
+    position: relative;
+  }
+  .custom-search-input {
+    width: 77%;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    padding: 10px 100px 10px 20px; 
+    line-height: 1;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+
+
+.custom-search-botton {
+    position: absolute;
+    right: 111px; 
+    top: 3px;
+    bottom: 3px;
+    border: 0;
+    background: #d1095e;
+    color: #fff;
+    outline: none;
+    margin: 0;
+    padding: 0 10px;
+    border-radius: 100px;
+    z-index: 2;
+  }
+
+
+  /* .modal-content{
+    width: 340px;
+  } */
+
+/* #secondcontent{
+    margin-top: 50px;
+    margin-right: -165px;
+    border-radius: 43px;
+    text-align: center;
+  } */
+
+
+
+
+  
+.card:hover{
+    font-variant: small-caps;
+    /* top:15px; */
+    font-size: 20px;
+    font-weight: bold;
+    color: sandybrown;
+    transition-delay:12ms;
+    transition: all 0.5s ease-in-out;
+    background-color: aliceblue;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+    transform: scale(1.1);
+  }
+
+
+
+  .anotherindicator{
+    /* font-variant: small-caps; */
+    /* top:15px; */
+    font-size: 12px;
+    /* font-weight: bold; */
+    /* line-height: 1; */
+    color: sandybrown;
+    transition-delay:12ms;
+    transition: all 0.5s ease-in-out;
+    background-color: aliceblue;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+    transform: scale(1.1);
+  }
+
+  /* tr{
+    font-size: 12px !important;
+  } */
+
+  #reentry{
+    min-width: 123px;
+  }
+
+  /* img:hover{
+    transform: scale(1.1);
+    background-color: red;
+  } */
+
+
+  
+
+  /* .btn-group{
+    grid-column-gap: 9px;
+} */
+
+  .btn-sm{
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+        text-align: center;
+        /*text-transform: uppercase;*/
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        width: 15%;
+  }
+
+
+  .deletebutton{
+    font-size: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 1px;
+  }
+
+
+/* btn-group */
+/* .btn-group{
+  column-gap: 12px;  
+}
+.btn-group:hover{
+  transform: scale(1,1.1);
+  top: 3px;  
+} */
+
+
+
+  /* media query start */
