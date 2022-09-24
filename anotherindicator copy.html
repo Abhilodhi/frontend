@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/anotherindicator.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Another Indicator
+  </title>
+</head>
+
+<body>
+
+                          <!-- Modal examplemodal for form -->
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Trading view user id
+                                  </h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                  <form>
+                                    <div class="mb-3">
+                                      <div class="custom-search">
+                                        <input type="hidden" class="custom-search-input form-control"
+                                          placeholder="Enter your TV user id">
+                                      </div>
+                                    </div>
+                                    <div class="mb-3">
+                                      <div class="custom-search">
+                                        <input type="text" class="custom-search-input form-control"
+                                          placeholder="Enter your TV user id">
+                                        <button class="custom-search-botton" type="submit">submit
+                                        </button>
+                                      </div>
+                                    </div>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+<!-- Modal tablemodal for tables-->
+<div class="modal fade" id="testModal" tabindex="-1" aria-labelledby="testModalLabel"
+aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="testModalLabel">Modal title</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      <div class="row m-0 y-0">
+        <div class="col-lg-12 mb-lg-0 mb-4">
+          <div class="box-hover-shadow ">
+            <div class="card-body p-4">
+              <div class="row">
+                <div class="container-fluid py-0">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="mb-1 anotherindicator">
+                        <div class="card-header pb-0">
+                          <!-- <h6 class="text-center">My strategies</h6> -->
+                        </div>
+                        <div class="card-body px-0 pt-0 pb-2">
+                          <div class="table-responsive p-0" style="height: 234px;">
+                            <table class="table align-items-center justify-content-center mb-0">
+                              <table class="table table-hover table-striped">
+                                <thead class="text-secondary">
+                                  <tr>
+                                    <th scope="col"
+                                      class="text-secondary text-xxs fw-bolder opacity-7"
+                                      style="min-width:120px ;">STRATEGY
+                                    </th>
+                                    <th scope="col"
+                                      class="text-secondary text-xxs font-weight-bolder opacity-7">
+                                      QUANTITY
+                                    </th>
+                                    <th scope="col"
+                                      class="text-secondary text-xxs font-weight-bolder opacity-7"
+                                      id="reentry">RE ENTRY
+                                    </th>
+                                    <th scope="col"
+                                      class="text-secondary text-xxs font-weight-bolder opacity-7">
+                                      ORDER
+                                    </th>
+                                    <th></th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>
+                                      <span class="opacity-70">Abhishek Lodhi</span>
+                                    </td>
+                                    <td><span class="opacity-70">11</span></td>
+                                    </td>
+                                    <td><span class="opacity-70">11</span>
+                                    </td>
+                                    <td><span class="opacity-70">111.99</span>
+                                    </td>
+                                    <td class="align-middle">
+                                      <a type="button"
+                                        class="fw-bold btn btn-danger deletebutton">DELETE</a>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                      <span class="opacity-70" style="min-width:100px">Abhishek
+                                        Lodhi</span>
+                                    </td>
+                                    <td><span class="opacity-70">11</span></td>
+                                    </td>
+                                    <td><span class="opacity-70">11</span>
+                                    </td>
+                                    <td><span class="opacity-70">111.99</span>
+                                    </td>
+                                    <td class="align-middle">
+                                      <a type="button"
+                                        class="fw-bold btn btn-danger deletebutton">DELETE</a>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                      <span class="opacity-70">Abhishek Lodhi</span>
+                                    </td>
+                                    <td><span class="opacity-70">11</span></td>
+                                    </td>
+                                    <td><span class="opacity-70">11</span>
+                                    </td>
+                                    <td><span class="opacity-70">111.99</span>
+                                    </td>
+                                    <td class="align-middle">
+                                      <a type="button"
+                                        class="fw-bold btn btn-danger deletebutton">DELETE</a>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+  <div class="wrapper">
+    <div class="sidebar box-hover-shadow pb-5" style="border-radius: 40px;">
+      <div class="profile" style="position: sticky; top: 0;">
+        <img src="img/profile.jpg" alt="profile_picture">
+        <h3 style="color: darkcyan;">Abhishek
+        </h3>
+        <p>Developer
+        </p>
+        <a href="#" style="font-size: 0.73em; float: right; margin-top: -190px;margin-right: 15px">
+          <i class="fas fa-bars">
+          </i>
+        </a>
+      </div>
+      <div class="sidebar-menu-items">
+        <ul>
+          <li>
+            <a href="#" class="active">
+              <span class="icon">
+                <i class="fas fa-home">
+                </i>
+              </span>
+              <span class="item">Home
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon">
+                <i class="fas fa-desktop">
+                </i>
+              </span>
+              <span class="item my-2">My Dashboard
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon">
+                <i class="fas fa-user-friends">
+                </i>
+              </span>
+              <span class="item">People
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon">
+                <i class="fas fa-tachometer-alt">
+                </i>
+              </span>
+              <span class="item">Perfomance
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon">
+                <i class="fas fa-database">
+                </i>
+              </span>
+              <span class="item">Development
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon">
+                <i class="fas fa-chart-line">
+                </i>
+              </span>
+              <span class="item">Reports
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon">
+                <i class="fas fa-user-shield">
+                </i>
+              </span>
+              <span class="item">Admin
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon">
+                <i class="fas fa-cog">
+                </i>
+              </span>
+              <span class="item">Settings
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="section">
+      <div class="top_navbar">
+        <div class="hamburger">
+        </div>
+      </div>
+      <!-- top card -->
+      <div class="container" style="margin-top:-30px; padding-left:45px; padding-right:45px; padding-bottom:38px;">
+        <div class="rounded-5">
+          <div class="card-body p-2 rounded-5 box-shadow-nohover">
+            <img src="img/img.jpeg" class="img-fluid rounded-3 m-0" width="50px" height="70px" alt="...">
+            <span><button type="button" class="btn btn-sm mx-2" style="min-width: 100px;">PAPER TRADING</button></span>
+          </div>
+        </div>
+      </div>
+      <div class="container py-0 my-0">
+        <div class="row">
+          <div class="col-lg-12 mb-lg-0 mb-4">
+            <div class="rounded-5 ">
+              <div class="card-body p-3 box-hover-shadow rounded-5">
+                <div class="btn-group mb-4">
+                  <button type="button" class="btn btn-sm py-0 mx-0">Indicator hub</button>
+                  <button type="button" class="btn btn-sm py-0 mx-0" data-bs-toggle="modal"
+                    data-bs-target="#testModal">Indicator
+                    Access</button>
+                </div>
+                <div class="row">
+                  <!-- first card -->
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 my-2 mx-0">
+                    <div class="card">
+                      <div>
+                        <img src="img/img.jpeg"
+                          class="card-img-top p-3 rounded-5 border border-end-0 bg-image hover-zoom" alt="..."
+                          width="60%" height="80%">
+                        <p>Supertrend with Sl or TP by xyz
+                        </p>
+                        </span>
+                      </div>
+                      <div class="card-body">
+                        <span>
+                          <p>Supertrend with Sl or TP
+                          </p>
+                        </span>
+                      </div>
+                      <div class="card-block d-flex flex-column">
+                        <a href="#" class="btn btn-block text-truncate mt-auto my-2 btn-info"
+                          data-bs-toggle="modal" data-bs-target="#exampleModal">Request Indicator
+                        </a>
+                      </div>
+                    </div>
+                  </div><br>
+                  <!-- second card -->
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 my-2 mx-0">
+                    <div class="card">
+                      <div>
+                        <img src="img/img.jpeg" class="card-img-top p-3 rounded-5 border border-end-0 " alt="..."
+                          width="60%" height="80%">
+                        <p>Supertrend with Sl or TP by xyz
+                        </p>
+                        </span>
+                      </div>
+                      <div class="card-body">
+                        <span>
+                          <p>Supertrend with Sl or TP
+                          </p>
+                        </span>
+                      </div>
+                      <div class="card-block d-flex flex-column">
+                        <a href="#" class="btn btn-block text-truncate mt-auto my-2 btn-info"
+                          data-bs-toggle="modal" data-bs-target="#exampleModal">Request Indicator
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- third card -->
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 my-2 mx-0">
+                    <div class="card">
+                      <div>
+                        <img src="img/img.jpeg" class="card-img-top p-3 rounded-5 border border-end-0 " alt="..."
+                          width="60%" height="80%">
+                        <p>Supertrend with Sl or TP by xyz
+                        </p>
+                        </span>
+                      </div>
+                      <div class="card-body">
+                        <span>
+                          <p>Supertrend with Sl or TP
+                          </p>
+                        </span>
+                      </div>
+                      <div class="card-block d-flex flex-column">
+                        <a href="#" class="btn btn-block text-truncate mt-auto my-2 btn-info"
+                          data-bs-toggle="modal" data-bs-target="#exampleModal">Request Indicator
+                        </a>
+                      </div>
+                    </div>
+                  </div><br>
+                </div>
+                <div class="container-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
